@@ -1,50 +1,76 @@
-# Custom Malware Detector (BAT Script)
+🛡️ Malware Scan Tool - Version 1.1.0 🛡️
+Welcome to Malware Scan Tool v1.1.0! This tool has been crafted to provide efficient malware scanning with a user-friendly experience, cleaner UI, and improved file detection capabilities. Below you'll find everything you need to get started.
 
-## 📌 About
-This is a **custom malware and spyware detector** written in a simple **Batch (.BAT) script**. It scans your files and system for suspicious activity, such as:
-- Hidden or system files (common in malware behavior)
-- Suspicious file types (`.exe`, `.bat`, `.vbs`, `.cmd`, etc.)
-- Known malicious strings inside scripts
-- Potentially dangerous running processes
-- Logs all results to a text file for review
+🔥 What's New in Version 1.1.0?
+✨ Key Features:
+🖥️ Updated Start Screen
+A fresh new start screen with ASCII art for a visually appealing introduction.
+Prepare for an exciting scanning experience!
 
-## ⚠️ Important Notes
-- This **does not remove** malware; it only detects suspicious activity.
-- You must **run it as an Administrator** for full access.
-- The scan log is saved to your **Desktop (OneDrive/Desktop if applicable).**
-- This is a **basic detection tool**, not a replacement for antivirus software.
+🔍 Enhanced File Detection System
+The system now supports additional file types, including .exe, .bat, .vbs, .cmd, and more to catch hidden malware.
 
-## 🛠️ How to Use
-1. **Download or copy the script**
-2. **Save it as** `MalwareScanner.bat`
-3. **Right-click the file → Run as Administrator**
-4. **Wait for the scan to complete** (it includes 3-second delays for readability)
-5. **Check the log file** at:
-   ```
-   C:\Users\YourUsername\OneDrive\Desktop\MalwareScanLog.txt
-   ```
-6. **Review the results** and manually inspect any suspicious files or processes
+🧑‍💻 Cleaner User Interface
+A simplified and well-organized UI that enhances navigation and scanning.
 
-## 📝 What It Scans
-✅ Suspicious file types (`.exe`, `.bat`, `.vbs`, `.cmd`, `.scr`, `.dll`, etc.)  
-✅ Hidden/system files that may be malware  
-✅ Known malware strings in scripts  
-✅ Suspicious running processes (`powershell.exe`, `cmd.exe /c`, `wscript.exe`, etc.)  
-✅ Logs everything in `MalwareScanLog.txt`  
+📜 Scan Results Log
+After every scan, a detailed log (MalwareScanLog.txt) is generated on your Desktop, showing what was detected.
 
-## 🛑 Disclaimer
-This tool is for **educational and informational purposes only**. It does not replace real-time antivirus software. Use it at your own risk.
+🧳 Directory Scanning Support
+You can now specify a directory or scan the entire system by entering the folder path.
 
-## 🔧 Customization
-- You can change the **scan directory** by modifying this line in the script:
-  ```bat
-  set SCAN_DIR=C:\Users\%USERNAME%\Documents
-  ```
-- You can add more **file types** to scan by modifying this part:
-  ```bat
-  for %%x in (exe bat vbs scr cmd js wsf lnk dll) do (...)
-  ```
+⚡ How to Use:
+1. Launch the Tool
+Open the tool by running the executable file MalwareScanTool.exe.
+2. Start a Scan
+At the start screen, type scanstart to begin scanning.
+The scanning process will analyze files and processes for malware.
+3. Choose Scan Settings
+Select a specific directory or scan the entire system by following the on-screen prompts.
+4. View Scan Results
+Once the scan is complete, results will be displayed on the screen and saved in a log file on your Desktop.
+🛠️ Features Breakdown:
+File Detection:
+Scans files with extensions: .exe, .bat, .vbs, .cmd, and more.
+Detects threats by analyzing file signatures, names, and behaviors.
+Process Scanning:
+Detects suspicious processes like powershell.exe, wscript.exe, cmd.exe, and others.
+Identifies real-time malicious activity.
+Directory Scanning:
+Allows you to scan a specific directory by entering the folder path.
+Perfect for scanning targeted folders or drives.
+💻 How It Looks:
+css
+Copy
+Edit
+███████████████████████████████
+███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██
+██  Malware Scan Tool v1.1.0        ██
+██  Detecting and Protecting      ██
+██  Your System from Threats      ██
+██  ... One Scan at a Time...     ██
+███████████████████████████████
+📈 Scan Results:
+Scan results will be saved in a file called MalwareScanLog.txt on your Desktop.
+The log includes:
+Files Detected: Suspicious files that may require attention.
+Processes Found: Malicious processes running on your system.
+Scan Duration: How long the scan took to complete.
+🔧 Improvements in This Version:
+✨ Enhanced Detection:
+Improved accuracy in detecting files and processes related to malware.
+💨 Cleaner UI:
+More intuitive design to simplify the scanning process.
+🛠️ Bug Fixes:
+Resolved minor bugs for smoother operation.
+📝 Important Notes:
+Permissions: Run the tool with administrator privileges to ensure full access to system files.
+Log File: Review MalwareScanLog.txt for more details if any suspicious activity is found.
+Directory Scanning: Target specific folders or scan your entire system by specifying a path.
+🏆 Disclaimer:
+This tool is designed for educational and personal use. Please ensure your system is up to date with trusted antivirus software in addition to this scanning tool.
 
----
-🚀 **Developed for Windows users who want a quick and simple way to check for malware-like activity.**
+🎮 Get In Touch:
+For more information, feedback, or issues, feel free to contact [Your Contact Info or Website].
 
+Enjoy your enhanced protection with Malware Scan Tool v1.1.0! 🎉 Stay safe, stay secure! 🚀
