@@ -39,17 +39,6 @@ Identifies real-time malicious activity.
 Directory Scanning:
 Allows you to scan a specific directory by entering the folder path.
 Perfect for scanning targeted folders or drives.
-💻 How It Looks:
-css
-Copy
-Edit
-███████████████████████████████
-███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██
-██  Malware Scan Tool v1.1.0        ██
-██  Detecting and Protecting      ██
-██  Your System from Threats      ██
-██  ... One Scan at a Time...     ██
-███████████████████████████████
 📈 Scan Results:
 Scan results will be saved in a file called MalwareScanLog.txt on your Desktop.
 The log includes:
